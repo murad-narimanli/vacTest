@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Task</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="fonts/fonts.css">
+
+  <!-- Bootstrap core CSS -->
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="mdb-skin bg-skin-lp ">
+
+<!--wp plug-->
+<!--<script src="https://apps.elfsight.com/p/platform.js" defer></script>-->
+<!--<div class="elfsight-app-8e033859-8821-4530-a965-616912ad78ed"></div>-->
+<!--/wp plug-->
+
+<!--header-->
+<header  classs="container-fluid">
+<!--BLue background-->
+  <div class="headbg slideInDown animated"></div>
+<!--/ BLue background-->
+<!--  Navbar-->
+
+  <!-- Navbar -->
+  <nav class="animated zoomIn navbar row fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar  double-nav">
+    <!-- SideNav slide-out button -->
+    <div class="float-left">
+      <a href="#" data-activates="slide-out" class=" ml-4 button-collapse"><i class="fas fa-bars"></i></a>
+    </div>
+    <!-- Breadcrumb-->
+    <a href="" class="breadcrumb-dn col-lg-2 col-3 px-0 px-sm-3 ">
+      <p>Əmək Münasibətləri və <br> Məşqulluq Alt Sistemi</p>
+    </a>
+    <form class="formsearch web mr-auto position-relative  d-block">
+      <img src="img/search.png" alt="">
+      <input class="form-control" type="search" placeholder="Axtar" aria-label="Axtar">
+    </form>
+    <ul class="nav navbar-nav nav-flex-icons px-0 px-md-3 d-flex justify-content-end align-items-center text-right">
+    <!--      lang-->
+      <li class="nav-item dropdown ">
+        <a class="nav-link p-0" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">
+          <div class="lang">
+            <img class="flag" src="img/usa-today.png" height="100%" alt="">
+            <span>English</span>
+            <img class="down" src="img/down.png" height="100%"  alt="">
+          </div>
+        </a>
+        <div class="dropdown-menu  mt-1 dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item " href="#"><img src="img/aze.png" alt="">Azərbaycan</a>
+        </div>
+      </li>
+
+    <!--      menu-->
+      <li class="nav-item dropdown mr-md-4 mr-3">
+        <a class="nav-link p-0" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">
+          <div class="menu">
+            <img src="img/menu.png" alt="">
+          </div>
+        </a>
+        <div class="dropdown-menu  mt-1 dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item " href="#"> <i class="fas fa-cog mr-1"></i> Tənzimləmələr</a>
+          <a class="dropdown-item" href="#"><i class="fas mr-1 fa-sign-out-alt"></i> Çıxış</a>
+        </div>
+      </li>
+
+    <!--      profile-->
+      <li class="nav-item profile d-flex align-items-center justify-content-center">
+        <div class="avatar">
+          <img src="./img/profile.png" alt="">
+        </div>
+        <div class="name">
+          <span>Xoş gördük</span>
+          <p>Fərid Əliyev</p>
+        </div>
+      </li>
+
+
+    </ul>
+  </nav>
+  <!-- /.Navbar -->
+
+</header>
+<!--/.header-->
+
+<!--Main layout-->
+<main class="container-fluid">
+      <div class="row">
+        <!--        sidebar-->
+        <div class="popup-layer"></div>
+        <section class="animated  slideInLeft sidebar col-lg-2 pl-0  ">
+            <div class="mobileheader">
+                <div class="headerTop">
+                  <div class="float-left">
+                    <a href="#" data-activates="slide-out" class=" close-icon"><i class="fas fa-times"></i></a>
+                  </div>
+                  <a href="#" class="breadcrumb-dn  px-3 ">
+                    <p>Əmək Münasibətləri və <br> Məşqulluq Alt Sistemi</p>
+                  </a>
+                </div>
+                <div class="headerBottom">
+                      <div class="profile">
+                          <div class="avatar">
+                            <img src="./img/profile.png" alt="">
+                          </div>
+                          <div class="name">
+                            <span>Xoş gördük</span>
+                            <p>Fərid Əliyev</p>
+                          </div>
+                      </div>
+                </div>
+            </div>
+            <div class="links">
+              <ul class="list-unstyled collapsible collapsible-accordion">
+                <li>
+                  <form class="formsearch web mr-auto position-relative  d-block">
+                    <img src="img/search.png" alt="">
+                    <input class="form-control" type="search" placeholder="Axtar" aria-label="Axtar">
+                  </form>
+                </li>
+                <li>
+                  <a href="#" class="waves-effect mainlinks  arrow-r">
+                    <img src="img/home.png" alt="">
+                    <span>Ana səhifə</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a class="d-flex align-items-center mb-1 collapsible-header mainlinks active waves-effect arrow-r">
+                    <img src="img/list.png" alt="">
+                    <span>Müraciət edən şəxslərlə iş</span>
+                    <img class="ml-3" src="img/down2.png"  class="rotate-icon" alt="">
+                  </a>
+                  <div class="collapsible-body" style="display: block">
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="waves-effect active">Yeni müraciətlər</a></li>
+                      <li><a href="#" class="waves-effect">İşaxtaran şəxslər</a></li>
+                      <li><a href="#" class="waves-effect">İşsiz şəxslər</a></li>
+                      <li><a href="#" class="waves-effect">İşlə təmin edilmiş şəxslər</a></li>
+                      <li><a href="#" class="waves-effect">Qeydiyyatı dayandırılmış şəxslər</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+              <!--/. Side navigation links -->
+              </ul>
+            </div>
+        </section>
+        <!--       / sidebar-->
+
+        <!--        rightside-->
+        <section class="col-lg-10  col-md-12 rightside">
+
+          <h5 class="animated zoomIn text-white">Yeni müraciətlər</h5>
+
+          <!--   inputs card-->
+          <section class="card animated slideInRight">
+              <h5 class="col-12 px-0" >Axtarış filterləri</h5>
+            <form  action="#!">
+
+              <!--   default row-->
+                <div class="row ">
+                    <!-- Fin -->
+                  <div class="inputs">
+                    <label for="fin">FIN</label>
+                    <input type="text" id="fin" class="form-control " >
+                  </div>
+                    <!-- Ad soyad ata adı -->
+                  <div class="inputs">
+                    <label for="name">Ad soyad ata adı</label>
+                    <input type="text" id="name" class="form-control " >
+                  </div>
+
+                 <div class="inputs">
+                   <label for="select">İşlə təmin olunma forması</label>
+                   <select id="select" class="browser-default custom-select  form-control">
+                     <option class="def" selected>İşlə təmin olunma forması 1</option>
+                     <option value="1">One</option>
+                     <option value="2">Two</option>
+                     <option value="3">Three</option>
+                   </select>
+                 </div>
+
+                  <div class="inputs">
+                    <label for="date">Tarixdən</label>
+                    <input type="text" name="coming_date"  placeholder="дд.мм.гггг" class="datepicker form-control  datepicker-here section_one_date" data-mask="00.00.0000" data-mask-clearifnotmatch="true" />
+                    <img src="./img/calendar.png" alt="">
+                   </div>
+
+                  <div class="inputs">
+                    <label for="date">Tarixə</label>
+                    <input type="text" name="coming_date"  placeholder="дд.мм.гггг" class="datepicker form-control  datepicker-here section_one_date" data-mask="00.00.0000" data-mask-clearifnotmatch="true" />
+                    <img src="./img/calendar.png" alt="">
+                  </div>
+
+                </div>
+
+              <!-- Collapsible element -->
+                  <div class="collapse row " id="collapseExample">
+
+                    <div class="inputs">
+                      <label for="select">Ixtisas</label>
+                      <select id="select1" class="browser-default custom-select  form-control">
+                        <option class="def" selected>Ixtisas</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+
+                    <div class="inputs">
+                      <label for="select">Peşə</label>
+                      <select id="select2" class="browser-default custom-select form-control">
+                        <option class="def" selected>Peşə</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+
+                    <div class="inputs">
+                      <label for="select">Təhsil səviyyəsi</label>
+                      <select id="selec3" class="browser-default custom-select form-control">
+                        <option class="def" selected>Təhsil səviyyəsi</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+
+                    <div class="inputs">
+                      <label for="select">İş təcrübəsi</label>
+                      <select id="select4" class="browser-default custom-select form-control">
+                        <option class="def" selected>İş təcrübəsi</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+
+
+                    <div class="inputs">
+                      <label for="fin">Əmək haqqı</label>
+                      <div class="d-flex">
+                        <input type="text" placeholder="min" id="salarymin" class="form-control w-50 mr-2 " >
+                        <input type="text" placeholder="max" id="salarymax" class="form-control  w-50" >
+                      </div>
+                    </div>
+
+                    <div class="inputs">
+                      <label for="select">Sosial vəziyyəti</label>
+                      <select id="select5" class="browser-default custom-select form-control">
+                        <option class="def" selected>Sosial vəziyyəti</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+
+
+                    <div class="inputs">
+                      <label for="select">Ailə vəzityyəti</label>
+                      <select id="select6" class="browser-default custom-select form-control">
+                        <option class="def" selected>Ailə vəzityyəti</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+
+
+                    <div class="inputs">
+                      <label for="select">Cinsi</label>
+                      <select id="select7" class="browser-default custom-select form-control">
+                        <option class="def" selected>Kişi</option>
+                        <option value="1">Qadın</option>
+                      </select>
+                    </div>
+
+                    <div class="inputs">
+                      <label for="date">Təvəllüdü aralıq</label>
+                      <input type="text" name="coming_date"  placeholder="дд.мм.гггг" class="datepicker form-control  datepicker-here section_one_date" data-mask="00.00.0000" data-mask-clearifnotmatch="true" />
+                      <img src="./img/calendar.png" alt="">
+                    </div>
+
+                    <div class="inputs">
+                      <label for="date"><p> </p></label>
+                      <input type="text" name="coming_date"  placeholder="дд.мм.гггг" class="datepicker form-control  datepicker-here section_one_date" data-mask="00.00.0000" data-mask-clearifnotmatch="true" />
+                      <img src="./img/calendar.png" alt="">
+                    </div>
+
+                    <div class="inputs">
+                      <label for="select">Qeydiyyat rayonu</label>
+                      <select id="select8" class="browser-default custom-select form-control">
+                        <option class="def" selected>Qeydiyyat rayonu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+
+                    <div class="inputs">
+                      <label for="select">Məşğulluq mərkəzi</label>
+                      <select id="select9" class="browser-default custom-select form-control">
+                        <option class="def" selected>Məşğulluq mərkəzi</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+
+                  </div>
+
+                <!--  buttons row-->
+                <div class="row m-0 mt-3 justify-content-between buttons">
+                  <a class="btn btn-light btn-sm m-0 grey lighten-4 "  data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="img/plus.png"  alt="" class="plus"> Ətraflı
+                  </a>
+                  <button type="submit" class="btn indigo accent-4 btn-sm m-0 btn-indigo"><img src="img/search2.png" alt=""> Axtarış et</button>
+                </div>
+
+
+            </form>
+          </section>
+          <!--   inputs card-->
+
+          <!-- little section-->
+          <section class="row m-0 py-3 animated infos justify-content-between zoomIn">
+              <div class="left">
+                <h5>Ümumi nəticələr [356]</h5>
+              </div>
+              <div class="right">
+                <button  class="btn btn-light btn-sm m-0 grey lighten-4 " >
+                  <img src="img/pdf.png"   >
+                  <span>PDF</span>
+                </button>
+                <button  class="btn mx-2 btn-light btn-sm m-0 grey lighten-4 " >
+                  <img src="img/excell.png"   >
+                  <span>Excel</span>
+                </button>
+                <button  class="btn btn-light btn-sm m-0 grey lighten-4 " >
+                  <img src="img/print.png"   >
+                  <span>Çap et</span>
+                </button>
+              </div>
+          </section>
+          <!-- / little section-->
+
+          <!--  table section- -->
+          <section class="card  animated p-0 slideInUp  w-100 tablesection">
+            <div class="table-responsive">
+              <table id="dtBasicExample" class="table mb-0  custom-table table-borderless table-sm" cellspacing="0" width="100%">
+                <thead>
+                <tr>
+                  <th class="th-sm">S/S</th>
+                  <th class="th-sm">FİN</th>
+                  <th class="th-sm">Ad, soyad, ata adı</th>
+                  <th class="th-sm">Müraciətin tarixi</th>
+                  <th class="th-sm">Müraciətin növü</th>
+                  <th class="th-sm text-center"> Qəbul et</th>
+                  <th class="th-sm text-center"> Ləğv et</th>
+                  <th class="th-sm text-center"> Ətraflı</th>
+                </tr>
+                </thead>
+
+
+                <tbody class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+                <!--  row start-->
+                <tr>
+                  <!-- id avatar -->
+                  <td data-label="S/s">
+                  <span>
+                    <span class="id">1</span>
+                    <span class="avatar">
+                      <img src="./img/profile1.png" alt="">
+                    </span>
+                  </span>
+                  </td>
+                  <!-- fin -->
+                  <td data-label="Fin"><span>25UGAP3</span></td>
+                  <!-- name surname -->
+                  <td data-label="Ad, soyad, ata adı"><span>Quliyeva İnci Vidadi</span></td>
+                  <!-- date time -->
+                  <td data-label="Müraciətin tarixi"><span>01.01.2020</span></td>
+                  <!-- about -->
+                  <td data-label="Müraciətin növü" ><span>İşaxtaran kimi qeydiyyatın dayandırılması</span></td>
+                  <!-- accept -->
+                  <td data-label="Qəbul et">
+                    <div class="center">
+                      <a class="btn-floating btn-sm btn-success"  data-toggle="modal" data-target="#second" ><i class="fas fa-check"></i></a>
+                    </div>
+                  </td>
+                  <!-- ignore -->
+                  <td data-label="Ləğv et">
+                    <div class="center">
+                      <a class="btn-floating btn-sm btn-danger"  data-toggle="modal" data-target="#centralModalSm"><i class="fas fa-times"></i></a>
+                    </div>
+                  </td>
+                  <!-- details-->
+                  <td data-label="Ətrafl">
+                    <div class="center">
+                      <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="false"
+                         aria-controls="collapseOne1" class="btn-floating btn-sm indigo collapsed"><i class="fas fa-angle-double-up rotate-icon"></i></a>
+                    </div>
+                  </td>
+                </tr>
+                <!-- collapsed-->
+                <tr>
+                  <td  class="p-0 h-auto" colspan="8">
+                    <!-- Card body -->
+                    <div id="collapseOne1" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                      <div class="card-body d-flex">
+                        <button  class="btn btn-light btn-sm m-0 mr-2 grey d-flex lighten-4 " >
+                          <img src="img/user.png" class="mr-2"  >
+                          <span>Vətəndaşın şəxsi işi</span>
+                        </button>
+                        <button  class="btn btn-light btn-sm m-0  grey d-flex lighten-4 " >
+                          <img src="img/paper.png" class="mr-2"  >
+                          <span>Fərdi məşğulluq vərəqi</span>
+                        </button>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- row ends -->
+
+                <!--  row start-->
+                <tr>
+                  <!-- id avatar -->
+                  <td data-label="S/s">
+                  <span>
+                    <span class="id">2</span>
+                    <span class="avatar">
+                      <img src="./img/profile2.png" alt="">
+                    </span>
+                  </span>
+                  </td>
+                  <!-- fin -->
+                  <td data-label="Fin"><span>25UGAP3</span></td>
+                  <!-- name surname -->
+                  <td data-label="Ad, soyad, ata adı"><span>Quliyeva İnci Vidadi</span></td>
+                  <!-- date time -->
+                  <td data-label="Müraciətin tarixi"><span>01.01.2020</span></td>
+                  <!-- about -->
+                  <td data-label="Müraciətin növü" ><span>İşaxtaran kimi qeydiyyatın dayandırılması</span></td>
+                  <!-- accept -->
+                  <td data-label="Qəbul et">
+                    <div class="center">
+                      <a class="btn-floating btn-sm btn-success"  data-toggle="modal" data-target="#second" ><i class="fas fa-check"></i></a>
+                    </div>
+                  </td>
+                  <!-- ignore -->
+                  <td data-label="Ləğv et">
+                    <div class="center">
+                      <a class="btn-floating btn-sm btn-danger"  data-toggle="modal" data-target="#centralModalSm"><i class="fas fa-times"></i></a>
+                    </div>
+                  </td>
+                  <!-- details-->
+                  <td data-label="Ətrafl">
+                    <div class="center">
+                      <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne2" aria-expanded="false"
+                         aria-controls="collapseOne2" class="btn-floating btn-sm indigo collapsed"><i class="fas fa-angle-double-up rotate-icon"></i></a>
+                    </div>
+                  </td>
+                </tr>
+                <!-- collapsed-->
+                <tr>
+                  <td  class="p-0 h-auto" colspan="8">
+                    <!-- Card body -->
+                    <div id="collapseOne2" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                      <div class="card-body d-flex">
+                        <button  class="btn btn-light btn-sm m-0 mr-2 grey d-flex lighten-4 " >
+                          <img src="img/user.png" class="mr-2"  >
+                          <span>Vətəndaşın şəxsi işi</span>
+                        </button>
+                        <button  class="btn btn-light btn-sm m-0  grey d-flex lighten-4 " >
+                          <img src="img/paper.png" class="mr-2"  >
+                          <span>Fərdi məşğulluq vərəqi</span>
+                        </button>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- row ends -->
+
+
+                <!--  row start-->
+                <tr>
+                  <!-- id avatar -->
+                  <td data-label="S/s">
+                  <span>
+                    <span class="id">3</span>
+                    <span class="avatar">
+                      <img src="./img/profile3.png" alt="">
+                    </span>
+                  </span>
+                  </td>
+                  <!-- fin -->
+                  <td data-label="Fin"><span>25UGAP3</span></td>
+                  <!-- name surname -->
+                  <td data-label="Ad, soyad, ata adı"><span>Quliyev Vaqif Əlibala</span></td>
+                  <!-- date time -->
+                  <td data-label="Müraciətin tarixi"><span>01.01.2020</span></td>
+                  <!-- about -->
+                  <td data-label="Müraciətin növü" ><span>İşaxtaran kimi qeydiyyatın dayandırılması</span></td>
+                  <!-- accept -->
+                  <td data-label="Qəbul et">
+                    <div class="center">
+                      <a class="btn-floating btn-sm btn-success"  data-toggle="modal" data-target="#second" ><i class="fas fa-check"></i></a>
+                    </div>
+                  </td>
+                  <!-- ignore -->
+                  <td data-label="Ləğv et">
+                    <div class="center">
+                      <a class="btn-floating btn-sm btn-danger"  data-toggle="modal" data-target="#centralModalSm"><i class="fas fa-times"></i></a>
+                    </div>
+                  </td>
+                  <!-- details-->
+                  <td data-label="Ətrafl">
+                    <div class="center">
+                      <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne3" aria-expanded="false"
+                         aria-controls="collapseOne3" class="btn-floating btn-sm indigo collapsed"><i class="fas fa-angle-double-up rotate-icon"></i></a>
+                    </div>
+                  </td>
+                </tr>
+                <!-- collapsed-->
+                <tr>
+                  <td  class="p-0 h-auto" colspan="8">
+                    <!-- Card body -->
+                    <div id="collapseOne3" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                      <div class="card-body d-flex">
+                        <button  class="btn btn-light btn-sm m-0 mr-2 grey d-flex lighten-4 " >
+                          <img src="img/user.png" class="mr-2"  >
+                          <span>Vətəndaşın şəxsi işi</span>
+                        </button>
+                        <button  class="btn btn-light btn-sm m-0  grey d-flex lighten-4 " >
+                          <img src="img/paper.png" class="mr-2"  >
+                          <span>Fərdi məşğulluq vərəqi</span>
+                        </button>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- row ends -->
+
+                <!--  row start-->
+                <tr>
+                  <!-- id avatar -->
+                  <td data-label="S/s">
+                  <span>
+                    <span class="id">4</span>
+                    <span class="avatar">
+                      <img src="./img/profile4.png" alt="">
+                    </span>
+                  </span>
+                  </td>
+                  <!-- fin -->
+                  <td data-label="Fin"><span>25UGAP3</span></td>
+                  <!-- name surname -->
+                  <td data-label="Ad, soyad, ata adı"><span>Qasımov Rüfət Qırxlar</span></td>
+                  <!-- date time -->
+                  <td data-label="Müraciətin tarixi"><span>01.01.2020</span></td>
+                  <!-- about -->
+                  <td data-label="Müraciətin növü" ><span>İşaxtaran kimi qeydiyyatın dayandırılması</span></td>
+                  <!-- accept -->
+                  <td data-label="Qəbul et">
+                    <div class="center">
+                      <a class="btn-floating btn-sm btn-success"  data-toggle="modal" data-target="#second" ><i class="fas fa-check"></i></a>
+                    </div>
+                  </td>
+                  <!-- ignore -->
+                  <td data-label="Ləğv et">
+                    <div class="center">
+                      <a class="btn-floating btn-sm btn-danger"  data-toggle="modal" data-target="#centralModalSm"><i class="fas fa-times"></i></a>
+                    </div>
+                  </td>
+                  <!-- details-->
+                  <td data-label="Ətrafl">
+                    <div class="center">
+                      <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne4" aria-expanded="false"
+                         aria-controls="collapseOne4" class="btn-floating btn-sm indigo collapsed"><i class="fas fa-angle-double-up rotate-icon"></i></a>
+                    </div>
+                  </td>
+                </tr>
+                <!-- collapsed-->
+                <tr>
+                  <td  class="p-0 h-auto" colspan="8">
+                    <!-- Card body -->
+                    <div id="collapseOne4" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                      <div class="card-body d-flex">
+                        <button  class="btn btn-light btn-sm m-0 mr-2 grey d-flex lighten-4 " >
+                          <img src="img/user.png" class="mr-2"  >
+                          <span>Vətəndaşın şəxsi işi</span>
+                        </button>
+                        <button  class="btn btn-light btn-sm m-0  grey d-flex lighten-4 " >
+                          <img src="img/paper.png" class="mr-2"  >
+                          <span>Fərdi məşğulluq vərəqi</span>
+                        </button>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- row ends -->
+
+
+                <!--  row start-->
+                <tr>
+                  <!-- id avatar -->
+                  <td data-label="S/s">
+                  <span>
+                    <span class="id">5</span>
+                    <span class="avatar">
+                      <img src="./img/profile5.png" alt="">
+                    </span>
+                  </span>
+                  </td>
+                  <!-- fin -->
+                  <td data-label="Fin"><span>25UGAP3</span></td>
+                  <!-- name surname -->
+                  <td data-label="Ad, soyad, ata adı"><span>Miriyev Zakir Qurban</span></td>
+                  <!-- date time -->
+                  <td data-label="Müraciətin tarixi"><span>01.01.2020</span></td>
+                  <!-- about -->
+                  <td data-label="Müraciətin növü" ><span>İşaxtaran kimi qeydiyyatın dayandırılması</span></td>
+                  <!-- accept -->
+                  <td data-label="Qəbul et">
+                    <div class="center">
+                      <a class="btn-floating btn-sm btn-success"  data-toggle="modal" data-target="#second" ><i class="fas fa-check"></i></a>
+                    </div>
+                  </td>
+                  <!-- ignore -->
+                  <td data-label="Ləğv et">
+                    <div class="center">
+                      <a class="btn-floating btn-sm btn-danger"  data-toggle="modal" data-target="#centralModalSm"><i class="fas fa-times"></i></a>
+                    </div>
+                  </td>
+                  <!-- details-->
+                  <td data-label="Ətrafl">
+                    <div class="center">
+                      <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne5" aria-expanded="false"
+                         aria-controls="collapseOne5" class="btn-floating btn-sm indigo collapsed"><i class="fas fa-angle-double-up rotate-icon"></i></a>
+                    </div>
+                  </td>
+                </tr>
+                <!-- collapsed-->
+                <tr>
+                  <td  class="p-0 h-auto" colspan="8">
+                    <!-- Card body -->
+                    <div id="collapseOne5" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                      <div class="card-body d-flex">
+                        <button  class="btn btn-light btn-sm m-0 mr-2 grey d-flex lighten-4 " >
+                          <img src="img/user.png" class="mr-2"  >
+                          <span>Vətəndaşın şəxsi işi</span>
+                        </button>
+                        <button  class="btn btn-light btn-sm m-0  grey d-flex lighten-4 " >
+                          <img src="img/paper.png" class="mr-2"  >
+                          <span>Fərdi məşğulluq vərəqi</span>
+                        </button>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- row ends -->
+                </tbody>
+
+              </table>
+            </div>
+            <!-- navigation -->
+            <div class="d-flex justify-content-center align-items-center p-3">
+              <div class="navigation">
+                <div class="box">
+                  <a href="#"><i class="fas fa-angle-double-left "></i></a>
+                </div>
+                <div class="box">
+                  <a class='active' href="#">1</a>
+                </div>
+                <div class="box">
+                  <a  href="#">2</a>
+                </div>
+                <div class="box">
+                  <a  href="#">3</a>
+                </div>
+                <div class="box">
+                  <a  href="#">4</a>
+                </div>
+                <div class="box">
+                  <a  href="#">5</a>
+                </div>
+                <div class="box">
+                  <a  href="#">6</a>
+                </div>
+                <div class="box">
+                  <a  href="#">7</a>
+                </div>
+                <div class="box">
+                  <a href="#"><i class="fas fa-angle-double-right "></i></a>
+                </div>
+              </div>
+            </div>
+            </section>
+          <!-- / table section- -->
+
+
+        </section>
+        <!--     /   rightside-->
+
+      </div>
+</main>
+<!--/Main layout-->
+
+
+<!-- Central Modal legv et -->
+<div class="modal fade w-100" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog w-100 modal-lg" role="document">
+    <div class="modal-content  pb-0 pt-4 px-4">
+      <div class="modal-header">
+        <div class="pane-title-wraper">
+          <h1 class="font-weight-bold">Yeni müraciəti ləğv et</h1>
+        </div>
+      </div>
+      <div class="modal-body littlemodal p-0">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="1">
+                  <label class="custom-control-label" for="1">
+                    <span>Təqdim olunmuş sənədlərdə və məlumatlarda təhrif olunmuş və ya düzgün olmayan məlumatlar
+                    aşkar edildikdə</span>
+                  </label>
+              </div>
+          </li>
+          <li class="list-group-item">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="2">
+              <label class="custom-control-label" for="2">
+                <span>Hərbi və ya alternativ xidmətdə olduqda, hərbi toplanışlarda olduqda</span>
+              </label>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="3">
+              <label class="custom-control-label" for="3">
+                <span>
+                Barəsində azadlıqdan məhrumetmə və ya tibbi xarakterli məcburi tədbirlərin tətbiqinə dair məhkəmənin
+                qanuni qüvvəyə minmiş qərarı olduqda
+               </span>
+              </label>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="4">
+              <label class="custom-control-label" for="4">
+                <span>Vəfat etdikdə və ya məhkəmənin qanuni qüvvəyə minmiş qərarı əsasında xəbərsiz itkin düşmüş
+                və ya ölmüş elan edildikdə</span>
+              </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer m-0  py-sm-4 py-2 d-flex justify-content-center align-items-center">
+        <button type="button" class="btn  btn-light  grey lighten-4  btn-sm" data-dismiss="modal">Bağla</button>
+        <button type="button" class="btn  btn-sm btn btn-indigo indigo btn-sm grey ">Yadda saxla</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Central Modal legv etl -->
+
+<!-- Central Modal elave et  -->
+<div class="modal fade  w-100" id="second" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-xl w-100" role="document">
+    <div class="modal-content ">
+
+      <div class="modal-body bigmodal p-0">
+        <div class="table-responsive">
+          <table id="dtBasicExample" class="table mb-0  custom-table table-borderless table-sm" cellspacing="0" width="100%">
+            <!-- table head -->
+            <thead>
+            <tr>
+              <th class="th-sm">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                  <label class="custom-control-label" for="defaultUnchecked"></label>
+                </div>
+              </th>
+              <th class="th-sm">S/S</th>
+              <th class="th-sm">Təşkilatın adı</th>
+              <th class="th-sm">Mülkiyyət forması</th>
+              <th class="th-sm">Fəaliyyət sahəsi</th>
+              <th class="th-sm">Təşkilatın hüquqi ünvanı</th>
+              <th class="th-sm">Təşkilatın telefonu</th>
+              <th class="th-sm ">Vəzifə</th>
+              <th class="th-sm ">Əmək haqqı</th>
+              <th class="th-sm text-center"> Ətraflı</th>
+            </tr>
+            </thead>
+            <!-- table head -->
+
+            <!-- table body -->
+            <tbody class="accordion md-accordion" id="accordionEx2" role="tablist" aria-multiselectable="true">
+            <!--  row start-->
+
+            <!-- table data row -->
+            <tr>
+              <!-- check -->
+              <td data-label="Seçin">
+                <div class="mt-1 custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="5">
+                  <label class="custom-control-label" for="5"></label>
+                </div>
+              </td>
+              <!-- id avatar -->
+              <td data-label="S/s">
+                  <span>
+                    <span class="id">1</span>
+                  </span>
+              </td>
+              <!-- fin -->
+              <td data-label="Təşkilatın adı"><span>Qızıltac MMC</span></td>
+              <!-- name surname -->
+              <td data-label="Mülkiyyət forması"><span>Özəl</span></td>
+              <!-- date time -->
+              <td data-label="Fəaliyyət sahəsi"><span>Tikinti</span></td>
+              <!-- about -->
+              <td data-label="Təşkilatın hüquqi ünvanı" ><span>Nərimanov rayonu, M. Xiyabani küç. 9</span></td>
+              <!-- about -->
+              <td data-label="Təşkilatın telefonu" ><span>434-88-99</span></td>
+              <!-- about -->
+              <td data-label="Vəzifə" ><span>Sürücü</span></td>
+              <!-- about -->
+              <td data-label="Əmək haqqı" ><span>500 Azn</span></td>
+              <!--details-->
+              <td data-label="Ətrafl">
+                <div class="center">
+                  <a data-toggle="collapse" data-parent="#accordionEx2" href="#collapsemodal1" aria-expanded="false"
+                     aria-controls="collapsemodal1" class="btn-floating btn-sm indigo collapsed"><i class="fas fa-angle-double-up rotate-icon"></i></a>
+                </div>
+              </td>
+            </tr>
+            <!-- table data row -->
+
+            <!-- collapsed-->
+            <tr>
+              <td  class="p-0 h-auto" colspan="10">
+                <!-- Card body -->
+                <div id="collapsemodal1" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx2">
+                  <div class="card-body custom-card-body d-flex">
+                    <!--ul start -->
+                    <ul class="list-group w-100 list-group-flush">
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş rejimi</div>
+                              <div class="col-6">növbəli</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Həftəlik iş saatı</div>
+                              <div class="col-6">40 saat</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş təcrübəsi</div>
+                              <div class="col-6">3 il</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Yaşayış tələbi</div>
+                              <div class="col-6">30-40</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş yeri</div>
+                              <div class="col-6">Gəncə, Abdulla Şaiq 5</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Sosial proqram</div>
+                              <div class="col-6">Xeyr</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Digər tələblər</div>
+                              <div class="col-6">______________</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- ul end -->
+                    </ul>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <!-- collapsed ends -->
+
+            <!-- table data row -->
+            <tr>
+              <!-- check -->
+              <td data-label="Seçin">
+                <div class="mt-1 custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="6">
+                  <label class="custom-control-label" for="6"></label>
+                </div>
+              </td>
+              <!-- id avatar -->
+              <td data-label="S/s">
+                  <span>
+                    <span class="id">1</span>
+                  </span>
+              </td>
+              <!-- fin -->
+              <td data-label="Təşkilatın adı"><span>Qızıltac MMC</span></td>
+              <!-- name surname -->
+              <td data-label="Mülkiyyət forması"><span>Özəl</span></td>
+              <!-- date time -->
+              <td data-label="Fəaliyyət sahəsi"><span>Tikinti</span></td>
+              <!-- about -->
+              <td data-label="Təşkilatın hüquqi ünvanı" ><span>Nərimanov rayonu, M. Xiyabani küç. 9</span></td>
+              <!-- about -->
+              <td data-label="Təşkilatın telefonu" ><span>434-88-99</span></td>
+              <!-- about -->
+              <td data-label="Vəzifə" ><span>Sürücü</span></td>
+              <!-- about -->
+              <td data-label="Əmək haqqı" ><span>500 Azn</span></td>
+              <!--details-->
+              <td data-label="Ətrafl">
+                <div class="center">
+                  <a data-toggle="collapse" data-parent="#accordionEx" href="#collapsemodal2" aria-expanded="false"
+                     aria-controls="collapsemodal2" class="btn-floating btn-sm indigo collapsed"><i class="fas fa-angle-double-up rotate-icon"></i></a>
+                </div>
+              </td>
+            </tr>
+            <!-- table data row -->
+
+            <!-- collapsed-->
+            <tr>
+              <td  class="p-0 h-auto" colspan="10">
+                <!-- Card body -->
+                <div id="collapsemodal2" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                  <div class="card-body custom-card-body d-flex">
+                    <!--ul start -->
+                    <ul class="list-group w-100 list-group-flush">
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş rejimi</div>
+                              <div class="col-6">növbəli</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Həftəlik iş saatı</div>
+                              <div class="col-6">40 saat</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş təcrübəsi</div>
+                              <div class="col-6">3 il</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Yaşayış tələbi</div>
+                              <div class="col-6">30-40</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş yeri</div>
+                              <div class="col-6">Gəncə, Abdulla Şaiq 5</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Sosial proqram</div>
+                              <div class="col-6">Xeyr</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Digər tələblər</div>
+                              <div class="col-6">______________</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- ul end -->
+                    </ul>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <!-- collapsed ends -->
+
+
+            <!-- table data row -->
+            <tr>
+              <!-- check -->
+              <td data-label="Seçin">
+                <div class="mt-1 custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="7">
+                  <label class="custom-control-label" for="7"></label>
+                </div>
+              </td>
+              <!-- id avatar -->
+              <td data-label="S/s">
+                  <span>
+                    <span class="id">1</span>
+                  </span>
+              </td>
+              <!-- fin -->
+              <td data-label="Təşkilatın adı"><span>Qızıltac MMC</span></td>
+              <!-- name surname -->
+              <td data-label="Mülkiyyət forması"><span>Özəl</span></td>
+              <!-- date time -->
+              <td data-label="Fəaliyyət sahəsi"><span>Tikinti</span></td>
+              <!-- about -->
+              <td data-label="Təşkilatın hüquqi ünvanı" ><span>Nərimanov rayonu, M. Xiyabani küç. 9</span></td>
+              <!-- about -->
+              <td data-label="Təşkilatın telefonu" ><span>434-88-99</span></td>
+              <!-- about -->
+              <td data-label="Vəzifə" ><span>Sürücü</span></td>
+              <!-- about -->
+              <td data-label="Əmək haqqı" ><span>500 Azn</span></td>
+              <!--details-->
+              <td data-label="Ətrafl">
+                <div class="center">
+                  <a data-toggle="collapse" data-parent="#accordionEx" href="#collapsemodal3" aria-expanded="false"
+                     aria-controls="collapsemodal3" class="btn-floating btn-sm indigo collapsed"><i class="fas fa-angle-double-up rotate-icon"></i></a>
+                </div>
+              </td>
+            </tr>
+            <!-- table data row -->
+
+            <!-- collapsed-->
+            <tr>
+              <td  class="p-0 h-auto" colspan="10">
+                <!-- Card body -->
+                <div id="collapsemodal3" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                  <div class="card-body custom-card-body d-flex">
+                    <!--ul start -->
+                    <ul class="list-group w-100 list-group-flush">
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş rejimi</div>
+                              <div class="col-6">növbəli</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Həftəlik iş saatı</div>
+                              <div class="col-6">40 saat</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş təcrübəsi</div>
+                              <div class="col-6">3 il</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Yaşayış tələbi</div>
+                              <div class="col-6">30-40</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş yeri</div>
+                              <div class="col-6">Gəncə, Abdulla Şaiq 5</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Sosial proqram</div>
+                              <div class="col-6">Xeyr</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Digər tələblər</div>
+                              <div class="col-6">______________</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- ul end -->
+                    </ul>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <!-- collapsed ends -->
+
+
+            <!-- table data row -->
+            <tr>
+              <!-- check -->
+              <td data-label="Seçin">
+                <div class="mt-1 custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="8">
+                  <label class="custom-control-label" for="8"></label>
+                </div>
+              </td>
+              <!-- id avatar -->
+              <td data-label="S/s">
+                  <span>
+                    <span class="id">1</span>
+                  </span>
+              </td>
+              <!-- fin -->
+              <td data-label="Təşkilatın adı"><span>Qızıltac MMC</span></td>
+              <!-- name surname -->
+              <td data-label="Mülkiyyət forması"><span>Özəl</span></td>
+              <!-- date time -->
+              <td data-label="Fəaliyyət sahəsi"><span>Tikinti</span></td>
+              <!-- about -->
+              <td data-label="Təşkilatın hüquqi ünvanı" ><span>Nərimanov rayonu, M. Xiyabani küç. 9</span></td>
+              <!-- about -->
+              <td data-label="Təşkilatın telefonu" ><span>434-88-99</span></td>
+              <!-- about -->
+              <td data-label="Vəzifə" ><span>Sürücü</span></td>
+              <!-- about -->
+              <td data-label="Əmək haqqı" ><span>500 Azn</span></td>
+              <!--details-->
+              <td data-label="Ətrafl">
+                <div class="center">
+                  <a data-toggle="collapse" data-parent="#accordionEx" href="#collapsemodal4" aria-expanded="false"
+                     aria-controls="collapsemodal4" class="btn-floating btn-sm indigo collapsed"><i class="fas fa-angle-double-up rotate-icon"></i></a>
+                </div>
+              </td>
+            </tr>
+            <!-- table data row -->
+
+            <!-- collapsed-->
+            <tr>
+              <td  class="p-0 h-auto" colspan="10">
+                <!-- Card body -->
+                <div id="collapsemodal4" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                  <div class="card-body custom-card-body d-flex">
+                    <!--ul start -->
+                    <ul class="list-group w-100 list-group-flush">
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş rejimi</div>
+                              <div class="col-6">növbəli</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Həftəlik iş saatı</div>
+                              <div class="col-6">40 saat</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş təcrübəsi</div>
+                              <div class="col-6">3 il</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Yaşayış tələbi</div>
+                              <div class="col-6">30-40</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş yeri</div>
+                              <div class="col-6">Gəncə, Abdulla Şaiq 5</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Sosial proqram</div>
+                              <div class="col-6">Xeyr</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Digər tələblər</div>
+                              <div class="col-6">______________</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- ul end -->
+                    </ul>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <!-- collapsed ends -->
+
+
+            <!-- table data row -->
+            <tr>
+              <!-- check -->
+              <td data-label="Seçin">
+                <div class="mt-1 custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="9">
+                  <label class="custom-control-label" for="9"></label>
+                </div>
+              </td>
+              <!-- id avatar -->
+              <td data-label="S/s">
+                  <span>
+                    <span class="id">1</span>
+                  </span>
+              </td>
+              <!-- fin -->
+              <td data-label="Təşkilatın adı"><span>Qızıltac MMC</span></td>
+              <!-- name surname -->
+              <td data-label="Mülkiyyət forması"><span>Özəl</span></td>
+              <!-- date time -->
+              <td data-label="Fəaliyyət sahəsi"><span>Tikinti</span></td>
+              <!-- about -->
+              <td data-label="Təşkilatın hüquqi ünvanı" ><span>Nərimanov rayonu, M. Xiyabani küç. 9</span></td>
+              <!-- about -->
+              <td data-label="Təşkilatın telefonu" ><span>434-88-99</span></td>
+              <!-- about -->
+              <td data-label="Vəzifə" ><span>Sürücü</span></td>
+              <!-- about -->
+              <td data-label="Əmək haqqı" ><span>500 Azn</span></td>
+              <!--details-->
+              <td data-label="Ətrafl">
+                <div class="center">
+                  <a data-toggle="collapse" data-parent="#accordionEx" href="#collapsemodal5" aria-expanded="false"
+                     aria-controls="collapsemodal5" class="btn-floating btn-sm indigo collapsed"><i class="fas fa-angle-double-up rotate-icon"></i></a>
+                </div>
+              </td>
+            </tr>
+            <!-- table data row -->
+
+            <!-- collapsed-->
+            <tr>
+              <td  class="p-0 h-auto" colspan="10">
+                <!-- Card body -->
+                <div id="collapsemodal5" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                  <div class="card-body custom-card-body d-flex">
+                    <!--ul start -->
+                    <ul class="list-group w-100 list-group-flush">
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş rejimi</div>
+                              <div class="col-6">növbəli</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Həftəlik iş saatı</div>
+                              <div class="col-6">40 saat</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş təcrübəsi</div>
+                              <div class="col-6">3 il</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Yaşayış tələbi</div>
+                              <div class="col-6">30-40</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">İş yeri</div>
+                              <div class="col-6">Gəncə, Abdulla Şaiq 5</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Sosial proqram</div>
+                              <div class="col-6">Xeyr</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--  li start-->
+                      <li class="list-group-item">
+                        <div class="row m-0">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">Digər tələblər</div>
+                              <div class="col-6">______________</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- ul end -->
+                    </ul>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <!-- collapsed ends -->
+
+
+            <!-- row ends -->
+            </tbody>
+            <!-- table body -->
+          </table>
+        </div>
+       </div>
+
+        <div class="modal-footer bigmodal py-lg-4  py-3 m-0 row justify-content-between align-items-center">
+          <div class="col-lg-3  m-0">
+            <p class="modalp ">Ümumi nəticələr [1297]</p>
+          </div>
+          <div class="col-lg-3 mb-lg-0 mb-2  d-flex justify-content-center m-0">
+            <div class="navigation">
+              <div class="box">
+                <a href="#"><i class="fas fa-angle-double-left "></i></a>
+              </div>
+              <div class="box">
+                <a class='active' href="#">1</a>
+              </div>
+              <div class="box">
+                <a  href="#">2</a>
+              </div>
+              <div class="box">
+                <a  href="#">3</a>
+              </div>
+              <div class="box">
+                <a  href="#">4</a>
+              </div>
+              <div class="box">
+                <a  href="#">5</a>
+              </div>
+              <div class="box">
+                <a  href="#">6</a>
+              </div>
+              <div class="box">
+                <a  href="#">7</a>
+              </div>
+              <div class="box">
+                <a href="#"><i class="fas fa-angle-double-right "></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3  d-flex justify-content-lg-end justify-content-center ">
+            <button type="button" class="btn  btn-light  grey lighten-4  btn-sm" data-dismiss="modal">Bağla</button>
+            <button type="button" class="btn  btn-sm btn btn-indigo indigo btn-sm grey ">Yadda saxla</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Central MCentral Modal elave et  -->
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!--datepicker-->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+</body>
+</html>
